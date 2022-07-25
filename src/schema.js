@@ -1,13 +1,23 @@
-const parse5 = require('parse5')
-const { argv } = require('process')
-const { readFileSync } = require('fs')
+import { parse }  from "parse5"
 
-function main(htmlString) {
-  const dom = parse5.parse(htmlString)
-  debugger;
+function parseSchema(htmlString) {
+    const dom = parse(htmlString)
+    JSONSchema(htmlString)
+    debugger
 }
 
-if (argv.length > 2) {
-  const file = readFileSync(argv[2], 'utf8')
-  console.log(main(file))
+function JSONSchema(htmlString){
+    const jsonRegex = /type="application\/ld\+json"\s*>(.*?)<\/script>/gsi
+
+    let JSONArray = []
+    const results = [...htmlString.matchAll(jsonRegex)]
+    results.forEach(result => {
+        JSONArray.push(JSON.parse(result[1]))
+    })
+    // regex for <script type="application/ld+json">(.*?)<\/script>
+
+    return JSONArray
 }
+
+
+export  { parseSchema }
