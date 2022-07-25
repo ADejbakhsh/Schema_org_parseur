@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Schema.org"
+    "Schema.org",
+    "parseur"
   ],
   "author": "",
   "license": "GPLv3",
