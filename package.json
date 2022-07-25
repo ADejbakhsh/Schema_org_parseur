@@ -1,7 +1,7 @@
 {
   "name": "schema_org_parseur",
   "version": "0.0.1",
-  "description": "This parser is the equivalent of the https://validator.schema.org/ in terme of output, excepte you have a JSON at the end.",
+  "description": "This parser is the equivalent of https://validator.schema.org/ in terms of output.",
   "main": "src/schema.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "Schema.org"
   ],
   "author": "",
-  "license": "MIT",
+  "license": "GPLv3",
   "dependencies": {
     "eslint-plugin-standard": "^5.0.0",
     "parse5": "^7.0.0"
