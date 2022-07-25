@@ -1,6 +1,6 @@
 {
   "name": "schema_org_parseur",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This parser is the equivalent of the https://validator.schema.org/ in terme of output, excepte you have a JSON at the end.",
   "main": "src/schema.js",
   "scripts": {
@@ -20,5 +20,5 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
   },
-  "type": "commonjs"
+  "type": "module"
 }
