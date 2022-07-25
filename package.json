@@ -10,13 +10,14 @@
     "Schema.org",
     "parseur"
   ],
-  "author": "",
+  "author": "adejbakh",
+  "repository": {"url": "https://github.com/ADejbakhsh/Schema_org_parseur"},
   "license": "GPLv3",
   "dependencies": {
-    "eslint-plugin-standard": "^5.0.0",
     "parse5": "^7.0.0"
   },
   "devDependencies": {
+    "eslint-plugin-standard": "^5.0.0",
     "eslint": "^8.17.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
