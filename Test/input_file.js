@@ -5,7 +5,7 @@ import { parseSchema } from "../src/schema.js"
 
 
 if (argv.length > 2) {
-    const file = readFileSync(argv[2], "utf8")
-    console.log(parseSchema(file))
+  const file = readFileSync(argv[2], "utf8")
+  console.log(parseSchema(file))
 }
   
