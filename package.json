@@ -1,6 +1,6 @@
 {
   "name": "schema_org_parseur",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This parser is the equivalent of https://validator.schema.org/ in terms of output.",
   "main": "src/schema.js",
   "scripts": {
