@@ -8,10 +8,14 @@ It will give you the same result as the validator.
 For now it only works with JSON-LD in html for now, this is still work in progress
 
 
-## example
+## Getting started
+
+```zsh
+npm i schema_org_parseur
+```
 
 ```js
-import {parseSchema} from "schema_org_parseur"
+import { parseSchema } from "schema_org_parseur"
 
 console.log(parseSchema(html))
 // [ {schema1}, {schema2}, ...]
