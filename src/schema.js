@@ -11,8 +11,8 @@ function parseSchema(html) {
   // const dom = parse(html)
   const arrayOfJson = JSONSchema(html)
 
-  removeDuplicateInfo(arrayOfJson)
-  return 
+  return removeDuplicateInfo(arrayOfJson)
+
 }
 
 /**
